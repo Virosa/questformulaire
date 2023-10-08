@@ -24,11 +24,12 @@
             <option value="demande de rdv">demande de rdv</option>
             <option value="demande de devis">demande de devis</option>
         </div>
-   
+   <br> <br>
     <div>
       <label  for="message">Message :</label>
       <textarea  id="message"  name="user_message"></textarea>
     </div>
+
     <div  class="button">
       <button  type="submit">Envoyer votre message</button>
     </div>
