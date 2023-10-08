@@ -15,7 +15,7 @@
     </div>
     <div>
       <label  for="télephone">Téléphone :</label>
-        <input  type="int"  id="téléphone"  name="user-téléphone">
+        <input  type="tel"  id="téléphone"  name="user-téléphone">
     </div>
     <div>
       <label  for="sujet">Sujet :</label>
@@ -23,10 +23,12 @@
             <option value="demande d'information">demande d'information</option>
             <option value="demande de rdv">demande de rdv</option>
             <option value="demande de devis">demande de devis</option>
+        </select>
         </div>
-   <br> <br>
+   
     <div>
       <label  for="message">Message :</label>
+        
       <textarea  id="message"  name="user_message"></textarea>
     </div>
 
